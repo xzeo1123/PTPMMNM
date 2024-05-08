@@ -5,18 +5,17 @@ import pandas as pd
 from tensorflow.keras.layers import Input, Conv2D, MaxPooling2D, Flatten, Dense, Dropout # type: ignore
 from tensorflow.keras.models import Model # type: ignore
 import warnings
-
 warnings.filterwarnings("ignore")
 
-# define class
+# Define class
 num_classes = 7   # angry, disgust, fear, happy, neutral, sad, and surprise
 
 # Init path
-dataset_dir = os.path.join(os.path.dirname(__file__), "Dataset", "Emotion")
+current_dir = os.path.dirname(__file__)
+dataset_dir = os.path.join(current_dir, '..', 'Dataset', 'Emotion')
 
 train_df = pd.read_csv(os.path.join(dataset_dir, 'train_labels.csv'), dtype={'label': str})
 test_df = pd.read_csv(os.path.join(dataset_dir, 'test_labels.csv'), dtype={'label': str})
-
 
 # Init model
 input_image = Input(shape=(100, 100, 3), name='Input')
@@ -45,7 +44,7 @@ model = Model(inputs=input_image, outputs=output_label, name='emo_cnn')
 # Model Params
 batch_sz = 32
 epo = 101
-
+img_size = 100
 
 # Create data from path
 train_df['image'] = train_df.apply(lambda row: os.path.join(dataset_dir, 'DATASET', 'train', row['label'], row['image']), axis=1)

@@ -5,8 +5,14 @@
         "dataframe",
         "datagen",
         "dtype",
+        "highlightthickness",
         "imshow",
+        "padx",
+        "pady",
+        "relheight",
         "relu",
+        "relwidth",
+        "relx",
         "softmax"
     ]
 }

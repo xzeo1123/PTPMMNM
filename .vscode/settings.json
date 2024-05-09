@@ -14,5 +14,6 @@
         "relwidth",
         "relx",
         "softmax"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }

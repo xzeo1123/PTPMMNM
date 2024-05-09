@@ -89,4 +89,75 @@ Liệt kê các yêu cầu cần thiết để cài đặt và sử dụng dự 
 Clone the project at this link to your device: https://github.com/xzeo1123/PTPMMNM.git
 
 
+## Download my data
+Download Dataset from my drive at: 
+
+Put that dataset folder in the project has same directory with all main folder
+This dataset is template for data training this sample model. You can replace it with your own or some other datasets. Find more with this keyword "Dataset for training model tensorflow gender/emotion".
+
+Do the same with trained model: 
+
+This forlder contains our trained model to make a quick predict app. You can replace these files with your new trained model.
+
+
 ## Run your application
+### Re-training model
+As suggested in the previous section, this test product I provide already has a trained model. However, you can still experimentally retrain the model as desired to get the value you expect. Things you need to know when you need retraining include:
+
+Application theory including training parameter: 
+
+https://nttuan8.com/
+
+https://www.youtube.com/watch?v=mVO_JWailTA
+
+Some environments support hardware for you to train models with low computer conditions:
+
+Google Colab: https://colab.research.google.com/
+
+Kaggle: https://www.kaggle.com/
+
+Make sure you have the right instruction to create account for using these environments.
+
+
+### Using application
+
+You can run your app to have an testing experience.
+First, turn on your mysql connection host
+Second, If you are using vscode ide, locate to file LoginUI.py in GUI folder and run it.
+
+Or you are using terminal locate to GUI folder and run it with code: "python3 GUI/UILogin.py"
+
+# Author
+Group 8 subject open source software development at Sai Gon University
+
+# License
+MIT License
+
+Copyright (c) [2024] [Group 8]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+# Error Reporting, Q&A or Support
+Contact with us from facebook:
+
+Dinh Phi Hung: https://www.facebook.com/profile.php?id=100011870896039
+
+Vo Hai Ha: https://www.facebook.com/a1erice
+
+Nguyen Ngoc Bang Trinh: https://www.facebook.com/nnbtrinh.02

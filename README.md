@@ -82,8 +82,6 @@ https://code.visualstudio.com/download.
 If you are working in windows environment, download xampp or any mysql workspace you know
 https://www.apachefriends.org/download.html
 
-Liệt kê các yêu cầu cần thiết để cài đặt và sử dụng dự án của bạn.
-
 
 ## Clone the project
 Clone the project at this link to your device: https://github.com/xzeo1123/PTPMMNM.git

@@ -12,7 +12,9 @@ body {
   h6 {
     color: #1e1e1e;
   }
-  
+  h2 {
+    color: #f2f2f2;
+  }
   a {
     color: #1e1e1e;
     transition: all 0.5s ease-in-out;

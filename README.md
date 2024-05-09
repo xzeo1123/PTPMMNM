@@ -90,12 +90,12 @@ Clone the project at this link to your device: https://github.com/xzeo1123/PTPMM
 
 
 ## Download my data
-Download Dataset from my drive at: 
+Download Dataset from my drive at: https://drive.google.com/file/d/1UGthVB7tabjVgJpwEA4r9YtvpnVY4E5o/view?usp=sharing
 
 Put that dataset folder in the project has same directory with all main folder
 This dataset is template for data training this sample model. You can replace it with your own or some other datasets. Find more with this keyword "Dataset for training model tensorflow gender/emotion".
 
-Do the same with trained model: 
+Do the same with trained model: https://drive.google.com/file/d/1ngMKrF7DxW_5XOapVhmC5n_KdOHWOTRK/view?usp=drive_link
 
 This forlder contains our trained model to make a quick predict app. You can replace these files with your new trained model.
 
